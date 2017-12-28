@@ -1,0 +1,14 @@
+//variables
+$purple: #3f182b;
+$l-purple: #7c3956;
+$grey: #D4CCD2;
+$dark-grey: #cccccc;
+$l-grey: #f7f4f6;
+
+//config
+@import "config/*.scss";
+
+//layout
+@import "layout/*.scss";
+//blocks
+@import "blocks/*.scss";

@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  padding: rem(5px);
+  background: linear-gradient(to right, $purple 0%, $l-purple 100%);
+   flex: 0 0 auto;
+}
+
+.container--footer {
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}

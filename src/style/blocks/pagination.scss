@@ -1,0 +1,14 @@
+.pagination {
+  background-color: $dark-grey;
+  padding: rem(10px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination__next, .pagination__prev {
+  text-decoration: none;
+  color: $purple;
+  &:hover {
+    text-decoration: underline;
+  }
+}

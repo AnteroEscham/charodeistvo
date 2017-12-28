@@ -1,0 +1,11 @@
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: $l-purple;
+  padding: rem(5px) rem(20px);
+  display: inline-block;
+  transition: 0.2s;
+  &:hover {
+    background-color: darken($l-purple, 5);
+  }
+}

@@ -1,0 +1,23 @@
+.tags {
+  width: 100%;
+  padding: rem(10px);
+  margin-top: rem(10px);
+}
+
+.tags__item {
+  display: inline-block;
+  text-decoration: none;
+  color: $l-purple;
+  margin-left: rem(5px);
+  &:after {
+    content: ',';
+  }
+  &:last-child {
+    &:after {
+      display: none;
+    }
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}

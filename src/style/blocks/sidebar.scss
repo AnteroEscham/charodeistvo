@@ -1,0 +1,31 @@
+.sidebar-wrap {
+  width: 35%;
+  border-top: 3px solid $purple;
+  padding: rem(10px) rem(5px);
+}
+
+.sidebar {
+  background-color: $l-grey;
+  min-height: 150px;
+  margin-bottom: rem(5px);
+  padding: rem(5px);
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.sidebar__title {
+  display: block;
+  padding: rem(3px) rem(5px);
+  text-align: center;
+  font-family: Amatic SC;
+  font-size: rem(20px);
+  font-weight: 700;
+  border-bottom: 2px solid $l-purple;
+  margin-bottom: rem(10px);
+
+}
+
+.sidebar__vk {
+  width: 100%;
+}

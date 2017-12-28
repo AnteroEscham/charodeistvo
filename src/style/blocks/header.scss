@@ -1,0 +1,20 @@
+.header {
+  width: 100%;
+  padding: rem(5px);
+  background-color: $purple;
+  background: linear-gradient(to right, $purple 0%, $l-purple 100%);
+}
+
+.container--header {
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.header__logo-desc {
+  display: inline-block;
+  font-family: Amatic SC;
+  font-size: rem(26px);
+  color: #fff;
+  font-weight: 700;
+}

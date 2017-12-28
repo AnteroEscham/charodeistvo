@@ -1,0 +1,19 @@
+.search__form {
+  border: none;
+  background-color: #fff;
+  padding: rem(4px) rem(3px) rem(2px);
+  outline-color: $l-purple;
+  font-family: Neucha;
+}
+
+.search__btn {
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-family: Amatic SC;
+  font-weight: 700;
+  font-size: rem(20px);
+  padding: 0 rem(10px);
+  vertical-align: middle;
+  outline-color: $l-purple;
+}
