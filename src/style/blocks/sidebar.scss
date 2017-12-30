@@ -9,6 +9,7 @@
   min-height: 150px;
   margin-bottom: rem(5px);
   padding: rem(5px);
+  position: relative;
   &:last-child {
     margin-bottom: 0;
   }
@@ -23,9 +24,17 @@
   font-weight: 700;
   border-bottom: 2px solid $l-purple;
   margin-bottom: rem(10px);
+  text-transform: uppercase;
 
 }
 
 .sidebar__vk {
   width: 100%;
+}
+
+.sidebar__btn-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

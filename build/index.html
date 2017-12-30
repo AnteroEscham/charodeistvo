@@ -56,7 +56,7 @@
           <span class="title title--content">Статьи</span>
           <div class="content__page">
             <article class="content__article">
-              <div class="content__article-thumb"></div>
+              <div class="content__article-thumb" style="background-image: url('./img/3.jpg'); background-size: cover;"></div>
               <div class="content__article-wrap">
                 <span class="content__article-title">Викка - происхождение и ее истоки</span>
                 <p class="content__article-text">
@@ -77,38 +77,42 @@
               </div>
             </article>
           </div>
-          <div class="pagination content__pagination">
-            <a href="#" class="pagination__prev">Пред.</a>
-            <a href="#" class="pagination__next">След.</a>
-          </div>
+        <div class="pagination content__pagination">
+          <a href="#" class="pagination__prev">Пред.</a>
+          <a href="#" class="pagination__next">След.</a>
         </div>
+        </div>
+
         <aside class="sidebar-wrap">
+          <div class="sidebar">
+            <span class="sidebar__title">Карта дня</span>
+            <a href="#" class="btn sidebar__btn-card">Карта дня</a>
+          </div>
           <div class="sidebar">
             <span class="sidebar__title">Мы Вконтакте</span>
             <!-- VK Widget -->
             <div id="vk_groups" class="sidebar__vk">
-              <script type="text/javascript">
-              VK.Widgets.Group("vk_groups", {mode: 3, width: 'auto', no_cover: 1, color3: '3F182B'}, 102884697);
-              </script>
+            <script src="./js/vk.js" charset="utf-8"></script>
             </div>
           </div>
         </aside>
+
       </div>
     </main>
     <!-- MAIN END -->
 
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="container container--footer">
-        <img src="./img/logo.png" alt="logo" class="logo header__logo">
-        <div class="search">
-          <input type="text" placeholder="Искать..." class="search__form">
-          <button type="submit" name="button" class="search__btn">Поиск</button>
-        </div>
-      </div>
-    </footer>
-    <!-- FOOTER END -->
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container container--footer">
+    <img src="./img/logo.png" alt="logo" class="logo header__logo">
+    <div class="search">
+      <input type="text" placeholder="Искать..." class="search__form">
+      <button type="submit" name="button" class="search__btn">Поиск</button>
+    </div>
   </div>
+</footer>
+<!-- FOOTER END -->
+</div>
 
 
 
@@ -125,7 +129,7 @@
 
 
 <!-- script -->
-
+<script src="./js/pulso.js"></script>
 <!-- script end -->
 </body>
 </html>

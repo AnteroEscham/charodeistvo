@@ -1,0 +1,46 @@
+.card-day {
+  text-align: center;
+  width: 28%;
+  margin-right: 2%;
+}
+
+.card-day__card {
+  display: block;
+  margin: 0 0 rem(10px) 0;
+  min-height: rem(300px);
+  background-color: $purple;
+  border: 1px solid $l-purple;
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: center center;
+}
+
+.card-day__btn {
+  display: inline-block;
+}
+
+.content__page--card-day {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-day__desc {
+  width: 70%;
+  padding: rem(10px);
+  background-color: $l-grey;
+}
+
+.card-day__title {
+  display: block;
+  font-size: rem(18px);
+  text-align: center;
+  padding: rem(5px);
+  border-bottom: 2px solid $l-purple;
+}
+
+.pluso__card-day {
+  display: block !important;
+  width: 50%;
+  margin: rem(40px) auto 0;
+}

@@ -1,0 +1,1 @@
+!function(){if((!window.pluso||"function"!=typeof window.pluso.start)&&void 0==window.ifpluso){window.ifpluso=1;var t=document,o=t.createElement("script");o.type="text/javascript",o.charset="UTF-8",o.async=!0,o.src=("https:"==window.location.protocol?"https":"http")+"://share.pluso.ru/pluso-like.js";t.getElementsByTagName("body")[0].appendChild(o)}}();
