@@ -1,13 +1,13 @@
 .card-day {
   text-align: center;
-  width: 28%;
+  width: 38%;
   margin-right: 2%;
 }
 
 .card-day__card {
   display: block;
   margin: 0 0 rem(10px) 0;
-  min-height: rem(300px);
+  min-height: rem(400px);
   background-color: $purple;
   border: 1px solid $l-purple;
   background-image: url('../img/logo.png');
@@ -26,7 +26,7 @@
 }
 
 .card-day__desc {
-  width: 70%;
+  width: 60%;
   padding: rem(10px);
   background-color: $l-grey;
 }
